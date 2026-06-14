@@ -1,22 +1,16 @@
 # ==========================
 # IMPORTAÇÃO DAS BIBLIOTECAS
 # ==========================
-
 # Cria o servidor web Flask
 from flask import Flask, request, jsonify
-
 # Biblioteca da IA YOLO
 from ultralytics import YOLO
-
 # Manipulação de imagens
 from PIL import Image
-
 # Trabalhar com bytes da imagem
 import io
-
 # Biblioteca de voz do Windows
 import pyttsx3
-
 # Executar tarefas paralelas
 import threading
 
